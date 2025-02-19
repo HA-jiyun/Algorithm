@@ -1,0 +1,17 @@
+﻿#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    char b[4];
+    cin >> a >> b;
+
+    int c1 = a * (b[2] - '0');
+    int c2 = a * (b[1] - '0');
+    int c3 = a * (b[0] - '0');
+
+    cout << c1 << '\n'
+        << c2 << '\n'
+        << c3 << '\n'
+        << c1 + c2 * 10 + c3 * 100;
+}
