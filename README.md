@@ -1,3 +1,3 @@
-# BOJ-Algorithm
+# Algorithm
 
 Programming Test Preparation with C++
