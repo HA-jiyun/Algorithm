@@ -1,4 +1,6 @@
 int solution(vector<int> &A) {
+    // 0 <= P < Q < R
+    // 하나의 값이 나머지 두 값의 합보다 작아야 함
     int maxSum = 0;
 
     for(int p=0; p<A.size(); p++){
