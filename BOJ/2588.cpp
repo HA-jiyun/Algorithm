@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    // char 배열로 취급하여 자릿수 추출
+    // 숫자를 char 배열로 취급하여 자릿수 추출
     // 아스키코드를 활용해 char - '0' 하면 int로 변경 가능
     int a;
     char b[4];
