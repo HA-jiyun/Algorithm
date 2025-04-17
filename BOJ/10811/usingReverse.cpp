@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+	// 배열 뒤집기: reverse 함수
 	int n, m, i, j;
 	cin >> n >> m;
 
