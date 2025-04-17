@@ -9,6 +9,7 @@ int main()
 	cin.ignore();
 
 	for (int n = 0; n < T; n++) {
+		// char배열로 문자열 입력받기
 		char ch[23] = { NULL };
 		cin.getline(ch, 23);
 
