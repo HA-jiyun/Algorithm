@@ -17,7 +17,7 @@ int main() {
 
     vector<pair<int,int>> arr(N);
     for (int i = 0; i < N; i++) {
-        cin >> arr[i].first >> arr[i].second; 
+        cin >> arr[i].first >> arr[i].second;
     }
     sort(arr.begin(), arr.end(), compareY);
 
