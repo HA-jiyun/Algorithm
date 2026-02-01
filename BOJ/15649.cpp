@@ -5,12 +5,12 @@ using namespace std;
 
 int N, M;
 bool visited[MAX + 1] = { 0, };
-int arr[MAX] = { 0, };
+int selected[MAX] = { 0, };
 
 void dfs(int depth) {
     if (depth == M) {
         for (int i = 0; i < M; ++i) {
-            cout << arr[i] << " ";
+            cout << selected[i] << " ";
         }
         cout << '\n';
         return;
@@ -18,7 +18,7 @@ void dfs(int depth) {
     for (int i = 1; i <= N; ++i) {
         if (!visited[i]) {
             visited[i] = true;
-            arr[depth] = i;
+            selected[depth] = i;
             dfs(depth + 1);
             visited[i] = false;
         }   
